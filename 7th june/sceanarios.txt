@@ -1,0 +1,36 @@
+A) Model some data (represent data in a format)
+Solution : Make a class for the format. Create objects matching that format to store and process data.
+
+
+B) I want to create subtypes/categories for my data type.
+Each subtype has its own format, functionalities and some actions/data values are common base type.
+
+Solution : Write Inheritance based Solution
+
+C) I am writing Inheritance based solution. I want to store data for all "derived"/"Child"/"Extended" together in one container.
+
+Solution : Use upcasting with virtual/pure virtual functions 
+
+D) I want to change the implementation of a function from the base class after inheriting it in the child.
+
+Solution : Method overriding
+
+E) I want to construct an object in more than one way for my class
+
+Solution : Constructor/Function overloadingp]
+
+
+Rules 
+
+I) NON VIRTUAL FUNCTIONS
+
+        In case of stack objects/heap objects,
+
+        the type of objects/pointers decides the version of the function to be called 
+
+II) VIRTUAL FUNCTIONS
+
+        In case of stack objects 
+                -The type of object decides the versionof the function to be called 
+        In case of pointers
+                -we call the most derived version of the function

@@ -1,0 +1,5 @@
+Rule 1 : const keyword is applied to the token on its immediate left. If there is nothing on the left then the keyword will apply token to its immediate right.
+
+token : set of characters or int values having meaning
+
+Rule 2 : In case of pointer expressions, * must be treated as separate token

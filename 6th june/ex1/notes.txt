@@ -1,0 +1,50 @@
+Encapsulation
+    Example : 
+    class Car{
+        private:
+            int id ;
+            std::string ModelName;
+        public:
+            Car(); //this function works with one or more data members of this class
+
+            void UpdateModelName();
+
+            // void CalculateInsuranceCost(); // NOT WORK
+    }
+
+---> hiding data members by binding them together inside the class
+
+
+Abstraction ------ (focuses more on function part)
+
+
+
+Encapsulation---------- (focuses more on data member part)
+
+
+
+Inheritance ------ generalization and specialization 
+
+
+
+Polymorphism
+    - compile time Polymorphism
+    - run time Polymorphism
+    - [TO BE DISCUSSED LATER]
+
+ICE : Internal Combustion Engine
+
+objective : Application to maintain and process car related data
+
+    -Data for ICE car and EvCar are different in format
+        -Ice car has id, modelname, price, fuel type and fuel capacity
+        - Evcar has id,modelname,price,battery type, rated range and battery capacity
+        - Both types of cars must be registered with RTO but their registration cost is different.
+         We need a function to get the calculated value
+
+            - FOR ICE cars
+                -Petrol has 13% of price as value
+                -Diesel has 15% of price as value for registration
+
+            - FOR EvCars
+                -flat 3000 is the value

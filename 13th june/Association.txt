@@ -1,0 +1,5 @@
+FullTimeEmployee IS A type of Employee 
+Cricket is a type of sport
+
+
+BankAccount has a Debit card

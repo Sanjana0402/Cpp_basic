@@ -1,0 +1,42 @@
+Classes and Objects
+    - Making objects on the stack and heap
+    - deallocating heap
+    - making single v/s array of objects on stack and heap
+
+Constructors
+    - Zero arguments(default Constructors)
+    - parameterized Constructors
+    - * Copy Constructors
+
+Destructors
+    - when exactly is Destructors called?
+
+Inheritance
+    - single inheritance 
+    - multilevel inheritance
+    - multiple inheritance
+
+Encapsulation
+    -Data binding
+
+Polymorphism
+    - Method/Function Overloading
+    - function overriding
+    - virtual and non virtual functions
+    - virtual destructor
+
+Valgrind
+
+    - how to call it for an executable
+
+Debugging
+
+Templates
+
+
+Intro to STL
+
+
+Minor Topics
+    
+

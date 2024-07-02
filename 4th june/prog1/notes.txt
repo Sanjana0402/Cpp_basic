@@ -1,0 +1,18 @@
+Make a class EvCar which has folowing attributes
+    -carId which is a 6 digit number
+    -carName which is a string
+    -carPrice which is float
+    -carBatteryType which is LI_ION, NI_CAD OR OTHER
+
+    -a constructor to initialize all members by using received parameters
+    -a constructor to initialize dummy/default values(default constructor)
+    -getters and setters for each member
+
+
+Our program should have the following features
+
+    - A function that takes an array of pointer of type EvCar. Attaches to a heap initialized EvCar objects and returns the new pointer
+
+    - A function that accepts an array of pointers to EvCar and returns the average carPrice from all objects
+
+    - A function that accepts a carId and returns the carBatteryType for this matching EvCar

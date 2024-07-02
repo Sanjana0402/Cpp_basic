@@ -1,0 +1,55 @@
+XYZ company for cars
+
+Model_NAME : string
+Seat_COUNT : short
+chassis_number : string
+CATEGORY(ENUM)  // enum becoz n number of categories
+    - SUV, SEDAN, MPG, HATCHBACK
+-----------------------------------
+FEATURES[container of values]
+
+--------------------------------------
+
+Class
+
+ENUM
+
+Main
+
+//user defined member functions of a class
+
+    //I want to reply to user - what will be applicable tax percentage based on category of Car
+        /*
+            SEDAN : 1%
+            HATCHBACK : 2%
+            SUV : 7% 
+            MPG : 10%
+        
+
+    
+    1) How will a new unit of car get initialized? What action
+    will be performed, where will memory come from, etc??
+    2) What action will be performed when a unit of data 
+    is to be deleted? [NOTHING FROM MY END!/SOMETING]
+    
+    3) What operators need to work with a car type data!!!
+        - operations using operators [operator overloading]
+        - user defined functions in the class
+        - standard library functions???
+    
+    4) Should the data support COPY?
+        - if yes, what kind of copy [shallow/deep]
+*/
+
+
+Ctrl shift p then search header 
+for boiler plate.
+
+
+CTRL SHIFT I for proper indentation
+
+
+if the code is going lonf the press alt z for folding the code for proper view
+
+better ways to discuss the program without wasting memory....TO BE DISCUSSED LATER!!!!
+

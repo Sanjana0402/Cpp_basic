@@ -1,0 +1,24 @@
+class Vehicle
+    - id
+    - name
+    - price
+    - VehicleType PRIVATE, COMMERCIAL or OTHER
+
+
+class Car inherit from Vehicle
+    - carType SEDAN, SUV or HATCHBACK
+
+
+class EvCar inherit from Car
+
+
+Vehicle
+^
+|
+Car
+^
+|
+EvCar
+
+
+Create constructors and other special memeber functions as per requirments

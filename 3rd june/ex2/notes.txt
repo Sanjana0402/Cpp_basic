@@ -1,0 +1,21 @@
+Requirement : 
+    Create a model for data of a Student
+    Model should include
+        - studentId : 6 digits  ------- UNSIGNED int
+        - studentName : characters -------string
+        - studentAge : numeric, positive value--------unsigned short
+        - studentType : REGULAR, TRANSFER, INTERN ------ enum
+
+    There should be a way to
+        - initialize student
+        - print ID of student when data is deleted 
+        - A function to calculate Exam fees for a student based on studentType
+            - 100 for REGULAR, 400 for TRANSFER and 0 for INTERN
+
+    Create at least 3 objects on stack and 4 objects on heap for the student class and demonstrate the functionality for exam fees calculation for each student 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    To make an array default indentation is required
+     (not only in c and cpp)
+
